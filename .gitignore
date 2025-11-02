@@ -1,10 +1,15 @@
 # Ignore the huge original dataset
 chess_games.csv
 
-# Ignore the generated sample/processed data files
+# Ignore ALL generated data files (simple, pro, and samples)
 chess_games_TOP_PLAYERS.csv
-processed_move_data.csv
 chess_games_SAMPLE.csv
+processed_move_data.csv
+processed_move_data_PRO.csv
+
+# Ignore ALL trained model files
+rf_outcome_model.joblib
+rf_move_model_PRO.joblib
 
 # Ignore Python cache files
 __pycache__/

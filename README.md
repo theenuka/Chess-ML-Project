@@ -1,10 +1,12 @@
-# EC5203 - Predicting Chess Moves (Project by Theenuka and Theekshana)
+# EC5203 - "Pro" Chess Game Predictor (Project by Theenuka and Theekshana)
 
-This project uses classical machine learning (Random Forest, Logistic Regression) to predict chess game outcomes and optimal moves based on a large dataset of Grandmaster-level games.
+This project uses classical machine learning (Random Forest) to predict:
+1.  **Game Outcome (Win/Loss/Draw %):** Based on the 65-feature board state.
+2.  **Best Next Move:** Based on the 65-feature board state.
 
-## 🚀 How to Run This Project
+## 🚀 How to Run This "Pro" Project
 
-You cannot run this project just by cloning it. The large data files are ignored by Git. You must generate them yourself.
+You cannot run this project just by cloning it. The large data and model files are ignored by Git (`.gitignore`). You must generate them yourself by running the scripts **in the correct order.**
 
 ### Step 1: Get the Data
 1.  Download the **'Chess Games'** dataset from Kaggle:
@@ -19,3 +21,4 @@ pip install pandas
 pip install python-chess
 pip install scikit-learn
 pip install matplotlib
+pip install joblib
