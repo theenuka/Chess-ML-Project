@@ -1,4 +1,4 @@
-# EC5203 - Predicting Chess Moves (Project by Theenuka)
+# EC5203 - Predicting Chess Moves (Project by Theenuka and Theekshana)
 
 This project uses classical machine learning (Random Forest, Logistic Regression) to predict chess game outcomes and optimal moves based on a large dataset of Grandmaster-level games.
 
